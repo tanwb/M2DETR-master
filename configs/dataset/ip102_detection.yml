@@ -1,0 +1,35 @@
+task: detection
+
+num_classes: 102
+remap_ip102_category: True
+
+train_dataloader: 
+  type: DataLoader
+  dataset: 
+    type: IP102Detection
+    img_folder: /dsjxytest/models/tempp3/temp/data_ip102/coco_format/ip102/train/
+    ann_file: /dsjxytest/models/tempp3/temp/data_ip102/coco_format/ip102/annotations/instances_train.json
+    transforms:
+      type: Compose
+      ops: ~
+  shuffle: True
+  batch_size: 8
+  num_workers: 4
+  drop_last: True 
+
+
+
+val_dataloader:
+  type: DataLoader
+  dataset: 
+    type: IP102Detection
+    img_folder: /dsjxytest/models/tempp3/temp/data_ip102/coco_format/ip102/test/
+    ann_file: /dsjxytest/models/tempp3/temp/data_ip102/coco_format/ip102/annotations/instances_test.json
+    transforms:
+      type: Compose
+      ops: ~ 
+
+  shuffle: False
+  batch_size: 8
+  num_workers: 4
+  drop_last: False

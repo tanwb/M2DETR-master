@@ -1,0 +1,9 @@
+__include__: [
+  '../dataset/ip102_detection.yml',
+  '../runtime.yml',
+  './include/dataloader.yml',
+  './include/optimizer.yml',
+  './include/m2detr_r50vd_ip102.yml',
+]
+
+output_dir: ./output/m2detr_r50vd_6x_ip102
