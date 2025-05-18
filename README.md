@@ -105,11 +105,16 @@ The link to the VOC-formatted IP102 dataset is: https://drive.google.com/drive/f
 
 
 IP102_v1.1\Detection\VOC2007\
-- Annotations       # Directory containing XML files with annotation information
-- ImageSets         # Directory containing text files with image set definitions
-- JPEGImages        # Directory containing the actual images in JPEG format
+│
+├── Annotations       # Directory containing XML files with annotation information
+│
+├── ImageSets         # Directory containing text files with image set definitions
+│
+└── JPEGImages        # Directory containing the actual images in JPEG format
+
 
 - Please note: You must ensure the accurate conversion from the VOC annotation format to the COCO annotation format.
+
 
 
 ```
