@@ -103,7 +103,7 @@ pip install -r requirements.txt
 
 The link to the VOC-formatted IP102 dataset is: https://drive.google.com/drive/folders/1svFSy2Da3cVMvekBwe13mzyx38XZ9xWo
 
-
+```
 IP102_v1.1\Detection\VOC2007\
 │
 ├── Annotations       # Directory containing XML files with annotation information
@@ -112,18 +112,19 @@ IP102_v1.1\Detection\VOC2007\
 │
 └── JPEGImages        # Directory containing the actual images in JPEG format
 
+```
 
 - Please note: You must ensure the accurate conversion from the VOC annotation format to the COCO annotation format.
 
-
-
 ```
-~data_ip102/coco_format/
-  annotations/  # annotation json files
-    -instances_train.json    # coco format
-    -instances_test.json     # coco format
-  train/         # train images   80%
-  test/          # test images    20%
+data_ip102/coco_format/IP102/
+│
+├── annotations/          # Directory containing COCO-format annotation files
+│   ├── instances_train.json  # Training set annotations in COCO format
+│   └── instances_test.json   # Test set annotations in COCO format
+│
+├── train/                # Training images (15,171 images, ~80% of total)
+└── test/                 # Test images (3,798 images, ~20% of total)
   
 ```
 - Modify config [`img_folder`, `ann_file`](configs/dataset/ip102_detection.yml)
