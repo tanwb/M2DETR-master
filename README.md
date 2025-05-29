@@ -25,7 +25,7 @@ M2DETR  |   R50    |  IP102   | 640 |       41.0       |             62.7       
 
 |    Model     | Backbone |     Dataset     | Input Size | AP<sup>test</sup> | AP<sub>50</sub><sup>test</sup> | AP<sub>75</sub><sup>test</sup> | Params |                            log                             |                            weight                             |                                     code                                      |
 |:------------:|:--------:|:---------------:|:----------:|:-----------------:|:------------------------------:|:------------------------------:|:----------:|:----------------------------------------------------------:|:-------------------------------------------------------------:|:-----------------------------------------------------------------------------:|
- M2DETR |   R50    |      IP102      |    640     |       41.05       |             62.78              |             47.42              |            48.8M              | [log_url<sup>*</sup>](https://zenodo.org/uploads/15449838)(https://zenodo.org may be restricted in certain regions. Use a VPN for access.) | [weight_url<sup>*</sup>](https://zenodo.org/uploads/15449838)(https://zenodo.org may be restricted in certain regions. Use a VPN for access.) | [current_github_code<sup>*</sup>](https://github.com/tanwb/M2DETR-master)(https://zenodo.org may be restricted in certain regions. Use a VPN for access.) |
+ M2DETR |   R50    |      IP102      |    640     |       41.05       |             62.78              |             47.42              |            48.8M              | [log_url<sup>*</sup>](https://zenodo.org/uploads/15449838) # (https://zenodo.org may be restricted in certain regions. Use a VPN for access.) | [weight_url<sup>*</sup>](https://zenodo.org/uploads/15449838) # (https://zenodo.org may be restricted in certain regions. Use a VPN for access.) | [current_github_code<sup>*</sup>](https://github.com/tanwb/M2DETR-master) # (https://zenodo.org may be restricted in certain regions. Use a VPN for access.) |
 
 
 ### Other
@@ -33,7 +33,7 @@ The model maintains 0.4111 AP on the IP102 dataset even when removing nn.BatchNo
 
 |    Model     | Backbone |     Dataset     | Input Size | AP<sup>test</sup> | AP<sub>50</sub><sup>test</sup> | Params |                            log                             |                            weight                             |                                                         code                                                         |
 |:------------:|:--------:|:---------------:|:----------:|:-------------------------:|:------------------------------:|:----------:|:----------------------------------------------------------:|:-------------------------------------------------------------:|:--------------------------------------------------------------------------------------------------------------------:|
- M2DETR |   R50    |      IP102      |    640     |           41.11           |             62.72              |    48.8M    | [log_url<sup>*</sup>](https://zenodo.org/uploads/15437712)(https://zenodo.org may be restricted in certain regions. Use a VPN for access.) | [weight_url<sup>*</sup>](https://zenodo.org/uploads/15437712)(https://zenodo.org may be restricted in certain regions. Use a VPN for access.) | [code_url<sup>*</sup>](https://github.com/tanwb/M2DETR-master/blob/main/archived_log/Code_M2DETR-master-AP_0.411(IP102).zip)(https://zenodo.org may be restricted in certain regions. Use a VPN for access.) |
+ M2DETR |   R50    |      IP102      |    640     |           41.11           |             62.72              |    48.8M    | [log_url<sup>*</sup>](https://zenodo.org/uploads/15437712) # (https://zenodo.org may be restricted in certain regions. Use a VPN for access.) | [weight_url<sup>*</sup>](https://zenodo.org/uploads/15437712) # (https://zenodo.org may be restricted in certain regions. Use a VPN for access.) | [code_url<sup>*</sup>](https://github.com/tanwb/M2DETR-master/blob/main/archived_log/Code_M2DETR-master-AP_0.411(IP102).zip) # (https://zenodo.org may be restricted in certain regions. Use a VPN for access.) |
 
 
 
@@ -42,13 +42,13 @@ The performance metrics for the referenced method 'YOLOv10-L (Wang et al., 2024a
 
 | Model | Backbone | Epochs | Params | GFLOPs |  AP  | AP<sub>50</sub><sup>val</sup> | AP<sub>75</sub><sup>val</sup> | AP<sub>S</sub><sup>val</sup> | AP<sub>M</sub><sup>val</sup> | AP<sub>L</sub><sup>val</sup> | log  |
 | :---: |:--------:|:------:|:------:|:------:|:----:|:-----------------------------:|:-----------------------------:|:----------------------------:|:----------------------------:|:----------------------------:|:----:|
- YOLOv10-L (Wang et al., 2024a)|    -     |   -    |  25M   |  127   | 53.0 |            70.0               |            57.9               |            35.6              |            58.3              |              69.3            |[url<sup>*</sup>](https://zenodo.org/records/15437667)(https://zenodo.org may be restricted in certain regions. Use a VPN for access.)| 
+ YOLOv10-L (Wang et al., 2024a)|    -     |   -    |  25M   |  127   | 53.0 |            70.0               |            57.9               |            35.6              |            58.3              |              69.3            |[url<sup>*</sup>](https://zenodo.org/records/15437667) # (https://zenodo.org may be restricted in certain regions. Use a VPN for access.)| 
 
 
 
 
 YOLOv10 Reproduction Results. 
-Attached supplementary file [here<sup>*</sup>](https://zenodo.org/records/15437667)(https://zenodo.org may be restricted in certain regions. Use a VPN for access.)
+Attached supplementary file [here<sup>*</sup>](https://zenodo.org/records/15437667) # (https://zenodo.org may be restricted in certain regions. Use a VPN for access.)
 
 Reproduction Details
 
