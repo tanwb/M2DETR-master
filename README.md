@@ -48,7 +48,7 @@ The performance metrics for the referenced method 'YOLOv10-L (Wang et al., 2024a
 
 
 YOLOv10 Reproduction Results. 
-Attached supplementary file [here<sup>*</sup>](https://zenodo.org/records/15422527)
+Attached supplementary file [here<sup>*</sup>](https://zenodo.org/records/15437667)
 
 Reproduction Details
 
