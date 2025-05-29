@@ -125,7 +125,9 @@ data_ip102/coco_format/IP102/
 │
 ├── train/                # Training images (15,171 images, ~80% of total)
 └── test/                 # Test images (3,798 images, ~20% of total)
-  
+
+# Due to the dataset's large size, uploading it to GitHub is not feasible. If you require the pre-converted COCO format IP102 data, please contact us at <wbtan@stu.xmu.edu.cn>.
+
 ```
 - Modify config [`img_folder`, `ann_file`](configs/dataset/ip102_detection.yml)
 
